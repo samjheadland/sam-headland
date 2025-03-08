@@ -1,17 +1,14 @@
 body {
-    background: ;
-    font-family: 'Montserrat', sans-serif;
-    color: #000;
+    background: #4831D4;
+    font-family: "Plus Jakarta Sans", san-serif;
+    color: #fff;
+    font-size:19px;
 }
 
 header {
-    text-align:;
-    background: ;
     padding: 2em 0;
 }
-.logo {
-  font-weight: 900;
-}
+
 nav {
   text-align: right;
 }
@@ -36,22 +33,6 @@ img {
     width: 100%;
 }
 
-.main-heading {
-    font-size: 5em;
-    font-weight: 900;
-}
-
-.sub-heading {
-    font-weight: ;
-    font-size: 1.5em;
-    text-transform: uppercase;
-}
-
-.services {
-    padding-top: 4em;
-    letter-spacing: 0.5em;
-}
-
 footer {
     padding: 2em 0;
     text-align: center;
@@ -61,20 +42,6 @@ footer p {
     text-align: center;
 }
 
-.fab {
-    color: #000;
-}
-
-p {
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.portfolio-title {
-  padding-top: 0.5em;
-}
-.portfolio-category {
-  text-transform: uppercase;
-  font-size: 1em;
-  font-weight: lighter;
+.bg-blue {
+    background-color: #4831D4;
 }
