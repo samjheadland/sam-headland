@@ -1,17 +1,14 @@
 body {
-    background: #4831D4;
     font-family: "Plus Jakarta Sans", san-serif;
-    color: #fff;
-    font-size:19px;
+    font-size: 19px;
+    background-color: #122C38;
 }
 
 header {
     padding: 2em 0;
 }
 
-nav {
-  text-align: right;
-}
+
 nav a {
     padding: 0 0.5em;
 
@@ -20,22 +17,51 @@ nav a {
 a {
     color: #000;
 }
-a:hover{
-  color:#000;
-  text-decoration: none;
+
+a:hover {
+    color: #000;
+    text-decoration: none;
 }
+
 .center {
     text-align: center;
     margin: 4em 0;
 }
-
-img {
-    width: 100%;
+.card {
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
 }
+
+.card-title {
+    font-weight: bold;
+}
+.card-img-wrap {
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+
+  }
+  .card-img-wrap:after {
+    content: '';
+    overflow: hidden;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(72, 49, 212,0.7);
+    opacity: 0;
+    transition: opacity .25s;
+  }
+  .card-img-wrap img {
+    transition: transform .25s;
+    width: 100%;
+    border-radius:none;
+    overflow:hidden;
+
+  }
+
 
 footer {
     padding: 2em 0;
-    text-align: center;
 }
 
 footer p {
@@ -43,5 +69,9 @@ footer p {
 }
 
 .bg-blue {
-    background-color: #4831D4;
+    background-color: #122C38;
+}
+
+.text-blue {
+    color: #4831D4;
 }
